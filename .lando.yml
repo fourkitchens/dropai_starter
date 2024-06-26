@@ -59,9 +59,6 @@ services:
     type: lando
     api: 3
     meUser: root
-    portforward: true
-    ports:
-      - 27017
     services:
       user: root
       image: mongodb/mongodb-atlas-local:latest
