@@ -9,6 +9,8 @@ tooling:
     service: appserver
     env:
       DRUSH_OPTIONS_URI: "https://dropai-starter.lndo.site"
+  pip:
+    service: python
   xdebug-on:
     service: appserver
     description: Enable xdebug for nginx.
@@ -26,3 +28,13 @@ services:
     xdebug: true
     config:
       php: .vscode/php.ini
+  python:
+    type: python:3.9
+    build:
+      - 'pip install -r web/modules/contrib/dropai/modules/dropai_python/python/requirements.txt'
+    build_as_root:
+      - apt-get update
+      - apt-get install -y libgl1-mesa-glx libreoffice
+proxy:
+  python:
+    - python.lndo.site:5001
