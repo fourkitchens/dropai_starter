@@ -1,4 +1,4 @@
-name: dropai_starter
+name: dropai-starter
 recipe: drupal10
 config:
   webroot: web
@@ -8,7 +8,7 @@ tooling:
   drush:
     service: appserver
     env:
-      DRUSH_OPTIONS_URI: "https://dropai_starter.lndo.site"
+      DRUSH_OPTIONS_URI: "https://dropai-starter.lndo.site"
   xdebug-on:
     service: appserver
     description: Enable xdebug for nginx.

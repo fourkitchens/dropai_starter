@@ -12,6 +12,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fourkitchens/dropai.git"
         }
     ],
     "require": {
@@ -26,7 +30,8 @@
         "drupal/devel_kint_extras": "^1.1",
         "drupal/emulsify_twig": "^4.0",
         "drupal/token": "^1.13",
-        "drush/drush": "^12.4"
+        "drush/drush": "^12.4",
+        "fourkitchens/dropai": "dev-main"
     },
     "conflict": {
         "drupal/drupal": "*"
