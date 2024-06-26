@@ -63,3 +63,6 @@
 
 .lando.local.yml
 /web/modules/contrib
+
+# Ignore local mongodb store.
+/data

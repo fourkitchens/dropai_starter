@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4566592bb37d593ef190ae835b1eb697",
+    "content-hash": "e1e6684f17840f1b8610896f4344b7a6",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2122,6 +2122,143 @@
             }
         },
         {
+            "name": "drupal/mongodb",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/mongodb.git",
+                "reference": "8.x-2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mongodb-8.x-2.1.zip",
+                "reference": "8.x-2.1",
+                "shasum": "32fbd5c49bdce6e291512ae9d5eb3e01771592d2"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10",
+                "ext-json": "*",
+                "ext-mongodb": "^1.5.1",
+                "mongodb/mongodb": "^1.5.0",
+                "php": ">=7.2.0"
+            },
+            "conflict": {
+                "drush/drush": "< 9.3"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^2.8.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.1",
+                    "datestamp": "1697560462",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "chx",
+                    "homepage": "https://www.drupal.org/u/chx"
+                },
+                {
+                    "name": "Frederic G. MARAND",
+                    "homepage": "https://blog.riff.org",
+                    "email": "fgm@osinet.fr"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/646198/committers"
+                },
+                {
+                    "name": "Damien Tournoud",
+                    "homepage": "https://www.drupal.org/user/22211"
+                },
+                {
+                    "name": "David Strauss",
+                    "homepage": "https://www.drupal.org/user/93254"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "douggreen",
+                    "homepage": "https://www.drupal.org/user/29191"
+                },
+                {
+                    "name": "fgm",
+                    "homepage": "https://www.drupal.org/user/27985"
+                },
+                {
+                    "name": "japerry",
+                    "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
+                    "name": "jyee",
+                    "homepage": "https://www.drupal.org/user/712186"
+                },
+                {
+                    "name": "litwol",
+                    "homepage": "https://www.drupal.org/user/78134"
+                },
+                {
+                    "name": "majorrobot",
+                    "homepage": "https://www.drupal.org/user/168019"
+                },
+                {
+                    "name": "marcingy",
+                    "homepage": "https://www.drupal.org/user/77320"
+                },
+                {
+                    "name": "mikeryan",
+                    "homepage": "https://www.drupal.org/user/4420"
+                },
+                {
+                    "name": "Rok Žlender",
+                    "homepage": "https://www.drupal.org/user/61873"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                },
+                {
+                    "name": "thebuckst0p",
+                    "homepage": "https://www.drupal.org/user/342780"
+                },
+                {
+                    "name": "tomhollevoet",
+                    "homepage": "https://www.drupal.org/user/3289561"
+                }
+            ],
+            "description": "Drupal 8.2 driver for MongoDB",
+            "homepage": "https://www.drupal.org/project/mongodb",
+            "keywords": [
+                "drupal",
+                "mongodb"
+            ],
+            "support": {
+                "source": "https://github.com/fgm/mongodb/tree/8.x-2.x",
+                "docs": "https://github.com/fgm/mongodb/blob/8.x-2.x/README.md",
+                "email": "support@osinet.fr",
+                "irc": "irc://chat.freenode.net:6697/drupal-mongodb",
+                "issues": "https://www.drupal.org/project/issues/mongodb",
+                "rss": "https://github.com/fgm/mongodb/commits/8.x-2.x.atom"
+            }
+        },
+        {
             "name": "drupal/token",
             "version": "1.14.0",
             "source": {
@@ -2468,12 +2605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fourkitchens/dropai.git",
-                "reference": "11e8990761e6958dd2367a92ad860afc735a3e54"
+                "reference": "b94e60ce3847af8ae3d63e1c14cb50149d839d70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fourkitchens/dropai/zipball/11e8990761e6958dd2367a92ad860afc735a3e54",
-                "reference": "11e8990761e6958dd2367a92ad860afc735a3e54",
+                "url": "https://api.github.com/repos/fourkitchens/dropai/zipball/b94e60ce3847af8ae3d63e1c14cb50149d839d70",
+                "reference": "b94e60ce3847af8ae3d63e1c14cb50149d839d70",
                 "shasum": ""
             },
             "require": {
@@ -2496,7 +2633,7 @@
                 "source": "https://github.com/fourkitchens/dropai/tree/python-integration",
                 "issues": "https://github.com/fourkitchens/dropai/issues"
             },
-            "time": "2024-06-26T00:49:20+00:00"
+            "time": "2024-06-26T18:36:05+00:00"
         },
         {
             "name": "grasmash/expander",
@@ -3511,6 +3648,83 @@
                 "source": "https://github.com/mck89/peast/tree/v1.16.2"
             },
             "time": "2024-03-05T09:16:03+00:00"
+        },
+        {
+            "name": "mongodb/mongodb",
+            "version": "1.19.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mongodb/mongo-php-library.git",
+                "reference": "afe425b629075fa597fa2d5645045cb20dc93d95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mongodb/mongo-php-library/zipball/afe425b629075fa597fa2d5645045cb20dc93d95",
+                "reference": "afe425b629075fa597fa2d5645045cb20dc93d95",
+                "shasum": ""
+            },
+            "require": {
+                "composer-runtime-api": "^2.0",
+                "ext-hash": "*",
+                "ext-json": "*",
+                "ext-mongodb": "^1.18.0",
+                "php": "^7.4 || ^8.0",
+                "psr/log": "^1.1.4|^2|^3",
+                "symfony/polyfill-php80": "^1.27",
+                "symfony/polyfill-php81": "^1.27"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^12.0",
+                "rector/rector": "^1.1",
+                "squizlabs/php_codesniffer": "^3.7",
+                "symfony/phpunit-bridge": "^5.2",
+                "vimeo/psalm": "^5.13"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "MongoDB\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Braun",
+                    "email": "andreas.braun@mongodb.com"
+                },
+                {
+                    "name": "Jeremy Mikola",
+                    "email": "jmikola@gmail.com"
+                },
+                {
+                    "name": "Jérôme Tamarelle",
+                    "email": "jerome.tamarelle@mongodb.com"
+                }
+            ],
+            "description": "MongoDB driver library",
+            "homepage": "https://jira.mongodb.org/browse/PHPLIB",
+            "keywords": [
+                "database",
+                "driver",
+                "mongodb",
+                "persistence"
+            ],
+            "support": {
+                "issues": "https://github.com/mongodb/mongo-php-library/issues",
+                "source": "https://github.com/mongodb/mongo-php-library/tree/1.19.1"
+            },
+            "time": "2024-06-13T14:30:04+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -7878,5 +8092,9 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "platform-overrides": {
+        "ext-mongodb": "1.19.2",
+        "php": "8.3.6"
+    },
+    "plugin-api-version": "2.3.0"
 }
