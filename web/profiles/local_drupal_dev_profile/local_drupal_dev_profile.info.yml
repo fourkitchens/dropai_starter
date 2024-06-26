@@ -36,6 +36,8 @@ install:
   - toolbar
   - views
   - views_ui
+  - dropai
+  - dropai_python
 themes:
   - claro
   - olivero
