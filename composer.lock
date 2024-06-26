@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb80f5ab0b48ea9af796a706bd3def49",
+    "content-hash": "4566592bb37d593ef190ae835b1eb697",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2464,16 +2464,16 @@
         },
         {
             "name": "fourkitchens/dropai",
-            "version": "dev-main",
+            "version": "dev-python-integration",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fourkitchens/dropai.git",
-                "reference": "e1c9762b7d5cc5ac1b4b92f4d3ecd5cc5dfa11a7"
+                "reference": "11e8990761e6958dd2367a92ad860afc735a3e54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fourkitchens/dropai/zipball/e1c9762b7d5cc5ac1b4b92f4d3ecd5cc5dfa11a7",
-                "reference": "e1c9762b7d5cc5ac1b4b92f4d3ecd5cc5dfa11a7",
+                "url": "https://api.github.com/repos/fourkitchens/dropai/zipball/11e8990761e6958dd2367a92ad860afc735a3e54",
+                "reference": "11e8990761e6958dd2367a92ad860afc735a3e54",
                 "shasum": ""
             },
             "require": {
@@ -2484,7 +2484,6 @@
                 "smalot/pdfparser": "^2.10",
                 "yethee/tiktoken": "^0.5.0"
             },
-            "default-branch": true,
             "type": "drupal-module",
             "authors": [
                 {
@@ -2494,10 +2493,10 @@
             ],
             "description": "Transform Drupal websites into AI-powered platforms",
             "support": {
-                "source": "https://github.com/fourkitchens/dropai/tree/main",
+                "source": "https://github.com/fourkitchens/dropai/tree/python-integration",
                 "issues": "https://github.com/fourkitchens/dropai/issues"
             },
-            "time": "2024-06-24T13:00:40+00:00"
+            "time": "2024-06-26T00:49:20+00:00"
         },
         {
             "name": "grasmash/expander",

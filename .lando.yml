@@ -9,8 +9,14 @@ tooling:
     service: appserver
     env:
       DRUSH_OPTIONS_URI: "https://dropai-starter.lndo.site"
+  python:
+    service: python
   pip:
     service: python
+  flask:
+    service: python
+    description: Start the Python Flask app for local Python access in Drupal
+    cmd: "python web/modules/contrib/dropai/modules/dropai_python/python/app.py"
   xdebug-on:
     service: appserver
     description: Enable xdebug for nginx.
@@ -35,6 +41,9 @@ services:
     build_as_root:
       - apt-get update
       - apt-get install -y libgl1-mesa-glx libreoffice
+    scanner:
+      okCodes:
+        - 502
 proxy:
   python:
     - python.lndo.site:5001
