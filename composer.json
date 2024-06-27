@@ -31,7 +31,7 @@
         "drupal/emulsify_twig": "^4.0",
         "drupal/token": "^1.13",
         "drush/drush": "^12.4",
-        "fourkitchens/dropai": "dev-python-integration"
+        "fourkitchens/dropai": "dev-main"
     },
     "conflict": {
         "drupal/drupal": "*"
